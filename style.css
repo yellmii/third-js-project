@@ -1,0 +1,176 @@
+.nav-first {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.nav-middle button.nav-link{
+    font-size: 10px;
+    color: #000;
+}
+
+.nav-middle .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-end button.nav-link{
+    font-size: 11px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.nav-end .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #326891;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-date {
+    font-size: 12px;
+}
+
+.date-format {
+    font-weight: bold;
+}
+
+.nav-logo svg {
+    width: 430px;
+    margin-right: 6em;
+}
+
+.nav-weather {
+    display: flex;
+    justify-content: space-between;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.625rem;
+    -webkit-box-align: center;
+}
+
+.nav-weather div {
+    padding-left: 1em;
+}
+
+.weather-average {
+    font-weight: bold;
+    font-size: 0.8125rem;
+}
+
+.nav-exchange-rate {
+    display: flex;
+    justify-content: space-between;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+}
+
+.nav-exchange-rate .name {
+    color: rgb(18, 18, 18);
+}
+
+.nav-exchange-rate .rate {
+    color: rgb(63, 137, 59);
+    margin-right: 5px;
+}
+
+.nav-exchange-rate .rate {
+    color: rgb(63, 137, 59);
+}
+
+.nav-menus {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 4px double black;
+}
+
+.nav-menus button {
+    border: none;
+    background: none;
+    margin: 4px;
+    font-size: 12px;
+}
+
+.nav-menus button:hover {
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.news-img-size {
+    max-width: 100%;
+    height: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.news-rights {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.56rem;
+    text-align: right;
+    color: var(--color-content-quaternary,#727272);
+    vertical-align: text-top;
+    line-height: 1.2em;
+    
+}
+
+.left-news{
+    padding-top: 0.6em;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid black;
+}
+
+.right-news{
+    padding-top: 0.6em;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid black;
+}
+
+.layout {
+    min-width: 0;
+    position: relative;
+    grid-column: span 5;
+    margin-right: -1rem;
+    
+}
+
+.main-title {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 1.375rem;
+    line-height: 1.15em;
+    margin-bottom: 0.5em;
+    color: var(--color-content-primary,#121212);
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sub-title {
+    position: relative;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.1px;
+    line-height: 1.1875rem;
+    margin-bottom: 0.5em;
+}
